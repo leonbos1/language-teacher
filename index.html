@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>Language Teacher</h1>
+        <p>The word is: <span id="word"></span> </p>
+        <p id="feedback"></p>
+    </div>
+
+    <div>
+        <h2>Enter a word in <span id="language2">Italian</span></h2>
+        <input type="text" id="input" onkeydown="if (event.keyCode == 13) submit()"></input>
+        <button onclick="submit()">Add</button>
+    </div>
+
+</body>
+
+</html>
