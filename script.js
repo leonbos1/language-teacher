@@ -2,7 +2,7 @@ window.onload = function () {
     setNewWord();
 };
 
-allWords = [
+const allWords = [
     { "dutch": "appel", "italian": "mela", "english": "apple" },
     { "dutch": "banaan", "italian": "banana", "english": "banana" },
     { "dutch": "citroen", "italian": "limone", "english": "lemon" },
